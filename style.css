@@ -1,0 +1,76 @@
+input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(11, 182, 234);
+}
+#yoxla{
+background-color: rgb(243, 53, 53);
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border: red;
+}
+#random{
+    background-color: rgb(31, 225, 60);
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border: rgb(31, 225, 60);
+    margin-bottom:20px;
+}
+.check p{
+    color: brown;
+    transition: 0.4s ease;
+}
+
+.check span{
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.box{
+    margin-top: 30px;
+}
+
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.boxitem{
+    width: 200px;
+    height: 100px;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+    font-size: 50px;
+    text-align: center;
+    
+}
+.boxitem0{
+
+    /* display: none; */
+}
+
+.boxitem0.active{
+    /* display: block; */
+}
+.boxitem2{
+ 
+    /* display: none; */
+}
+.boxitem3{
+   
+    /* display: none; */
+
+}
+.boxitem4{
+    /* display: none; */
+
+}
+.boxitem5{
+    /* display: none; */
+
+
+}
